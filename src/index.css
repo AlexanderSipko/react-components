@@ -1,0 +1,15 @@
+.grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+
+.grid button {
+    width: 100%; /* Занимать всю доступную ширину блока */
+    box-sizing: border-box; /* Учитывать padding и border в расчетах ширины */
+  }
+
+.react-pdf__text-layer {
+    font-family: 'Roboto', sans-serif; /* Замените на ваш шрифт по желанию */
+    white-space: pre-wrap;
+  }
