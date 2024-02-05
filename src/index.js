@@ -1,15 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import {App, PdfViewerScroll} from './App';
-import { PdfView } from './PdfViewer'
+import { App } from './App'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <br/>
-    {/* <PdfViewerScroll/> */}
-    <PdfView/>
+    <App />
   </React.StrictMode>
 );

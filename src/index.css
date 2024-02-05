@@ -1,11 +1,20 @@
+.margin-auto-0 {
+  margin: 0 auto;
+}
+
+.with-80vw {
+  width: 80vw;
+}
+
 .grid {
-    width: 100%;
+    margin-top: 1vh;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 5px;
 }
 
 .grid button {
-    width: 100%; /* Занимать всю доступную ширину блока */
+    width: 80%; /* Занимать всю доступную ширину блока */
     box-sizing: border-box; /* Учитывать padding и border в расчетах ширины */
   }
 
@@ -13,3 +22,5 @@
     font-family: 'Roboto', sans-serif; /* Замените на ваш шрифт по желанию */
     white-space: pre-wrap;
   }
+
+
